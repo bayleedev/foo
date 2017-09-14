@@ -495,7 +495,7 @@ webpackJsonp([44],{
 	      var _this2 = this;
 	
 	      id = setInterval(function () {
-	        if (_this2.state.iterations >= 10) {
+	        if (_this2.state.iterations >= 1000) {
 	          console.log('done!', Date.now() - _this2.state.start);
 	          clearInterval(id);
 	          return;
